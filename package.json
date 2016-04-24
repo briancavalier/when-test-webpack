@@ -10,7 +10,7 @@
     "webpack": "^2.1.0-beta.6"
   },
   "scripts": {
-    "build": "webpack test.js test-app.js"
+    "build": "webpack --devtool source-map test.js test-app.js"
   },
   "author": "",
   "license": "MIT"
