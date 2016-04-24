@@ -10,7 +10,7 @@
     "webpack": "^2.1.0-beta.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack test.js test-app.js"
   },
   "author": "",
   "license": "MIT"
